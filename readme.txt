@@ -9,8 +9,9 @@ wsdl2h.exe -t ../gsoap/typemap.dat -o onvif.h -d http://www.onvif.org/onvif/ver1
 
 3、
 生成框架代码：
-soapcpp2.exe -i -I ../gsoap/import/ -I ../gsoap/ onvif.h
+soapcpp2.exe -x -c -I ../gsoap/import/ -I ../gsoap/ onvif.h
 
+-x：不生成xml文件
 ------------------------
 
 gsoap-2.8.27
