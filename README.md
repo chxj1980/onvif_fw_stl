@@ -37,19 +37,17 @@ soapcpp2参数说明：
 
 ## 文件说明
 gsoap-2.8.27
- gsoap ：gsoap-2.8.27源码，有删减，也可以直接下载gsoap源码，再解压。
- onvif_latelee：生成的onvif框架代码
-   proxy：客户端代码
-   xml：xml文件，协议命令，开发时可参考
-   1.bat：生成onvif.h脚本
-   2.bat：生成实现文件脚本
-   soapXXXService.h/.cpp：服务端代码
-   wsdd.nsmap：命名空间文件
-
-------------------------
-
-gsoap-2.8.29 (存档，暂不维护更新)
-2.8.29：同上，版本最新。
+ gsoap ：gsoap-2.8.27源码，有删减，也可以直接下载gsoap源码，再解压。  
+ onvif_latelee：生成的onvif框架代码  
+   proxy：客户端代码  
+   xml：xml文件，协议命令，开发时可参考  
+   1.bat：生成onvif.h脚本  
+   2.bat：生成实现文件脚本  
+   soapXXXService.h/.cpp：服务端代码  
+   wsdd.nsmap：命名空间文件  
 
 
----------------------------
+gsoap-2.8.29 (存档，暂不维护更新)  
+2.8.29：同上，版本最新。  
+
+
