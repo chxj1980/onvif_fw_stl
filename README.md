@@ -10,6 +10,8 @@ Windows环境使用gsoap生成onvif框架代码工程。
 * Q：为什么用2.8.27版本？
 * A：gsoap更新太快，且gsoap源码下载较困难，且这个版本能work，就不折腾、纠结gsoap的版本了。
 
+* Q：运行出现`Cannot connect to https site: no SSL support, please rebuild wsdl2h with SSL or download the files and rerun wsdl2h`
+* A：重新编译gsoap源码。或者直接使用本仓库的onvif.h。
 
 ## 生成onvif.h
 ```
@@ -24,7 +26,7 @@ wsdl2h.exe -t ../gsoap/typemap.dat -o onvif.h -d http://www.onvif.org/onvif/ver1
 soapcpp2.exe -x -c -I ../gsoap/import/ -I ../gsoap/ onvif.h
 ```
 
-`soapcpp2`参数说明：  
+soapcpp2参数说明：  
 * -j：soap作为服务类成员  
 * -i：服务类继承soap结构体  
 * -x：产生xml文件  
