@@ -1,0 +1,4 @@
+mkdir onvif_head
+cd onvif_head
+..\bin\wsdl2h.exe -t ..\gsoap\typemap.dat -o onvif.h -d ../../wsdl-files/remotediscovery.wsdl  ../../wsdl-files//devicemgmt.wsdl ../../wsdl-files/event.wsdl ../../wsdl-files/display.wsdl ../../wsdl-files/deviceio.wsdl ../../wsdl-files/imaging.wsdl ../../wsdl-files/media/media.wsdl ../../wsdl-files/media.wsdl.20 ../../wsdl-files/ptz.wsdl ../../wsdl-files/receiver.wsdl ../../wsdl-files/recording.wsdl ../../wsdl-files/search.wsdl ../../wsdl-files/replay.wsdl ../../wsdl-files/analytics.wsdl ../../wsdl-files/analyticsdevice.wsdl ../../wsdl-files/onvif.xsd ../../wsdl-files/actionengine.wsdl ../../wsdl-files/accesscontrol.wsdl ../../wsdl-files/doorcontrol.wsdl ../../wsdl-files/advancedsecurity.wsdl ../../wsdl-files/accessrules.wsdl ../../wsdl-files/credential.wsdl ../../wsdl-files/schedule.wsdl ../../wsdl-files/types.xsd
+pause
